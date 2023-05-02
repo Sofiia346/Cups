@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Miso;
+    src: url(./task_Cups/fonts/miso.otf);
+}
+  
+  @font-face {
+    font-family: MisoBold;
+    src: url(./task_Cups/fonts/miso-bold.ttf);
+}
+  
+  @font-face {
+    font-family: Lato;
+    src: url(./task_Cups/fonts/lato.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+section{
+    background-color: rgb(255, 204, 84);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card, .card2, .card3{
+    background-color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 32px;
+     margin: 41px;
+     cursor: pointer;
+}
+.price, .price2, .price3{
+    color: green;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: MisoBold, sans-serif;
+}
+.title, .title2, .title3{
+    font-size: 35px;
+  font-weight: 400;
+  font-family: Miso, sans-serif; 
+  color: rgb(130, 109, 109);
+}
+.description, .description2, .description3{
+    color: rgb(130, 109, 109);
+    width: 130px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+.smoke-img, .smoke-img2, .smoke-img3, .bean, .bean2, .bean3{
+    position: relative;
+}
+.smoke-img, .smoke-img2, .smoke-img3 {
+    bottom: 6px ;
+    right: 11px;
+}
+.bean, .bean2, .bean3{
+    bottom: 61px;
+    right: 10px;
+}
+.card:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    }
+.card2:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+.card3:hover {
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
